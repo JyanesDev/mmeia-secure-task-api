@@ -2,10 +2,11 @@
 
 - [x] M0 — Scaffold del repositorio (estructura, spec/requirements/tasks
       ya versionados desde el commit inicial, no añadidos después)
-- [ ] M1 — Base de datos (01_Disenar_Base_Datos): Usuario, Tarea
-      - Verificación de unicidad de email
-      - Verificación de FK propietario_id
-      - Verificación de soft delete
+- [x] M1 — Base de datos (01_Disenar_Base_Datos): Usuario, Tarea — DONE 2026-07-25
+      - [x] Verificación de unicidad de email
+      - [x] Verificación de FK propietario_id
+      - [x] Verificación de soft delete
+      - `disenio.md` (Pasos 1-4) y `db/schema.sql` (Paso 5) creados; esquema aplicado y verificado contra un contenedor PostgreSQL 16 real y desechable (`db/VERIFICATION.md`, Paso 6). Playbook Checklist final: 7/7.
 - [ ] M2 — API (02_Crear_API), esta vez con el Paso 5 (JWT) aplicado
       completo: registro, login, refresh, CRUD con ownership
       - Tests explícitos: 401, 403, 404, refresh token, access token
